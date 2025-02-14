@@ -1,0 +1,11 @@
+{
+  "ominous_equip1": {
+    "subtitle": "sounds.hazennstuff.ominous_armor_equip1",
+    "sounds": [
+      "hazennstuff:ominous_armor_equip1",
+      "hazennstuff:ominous_armor_equip2",
+      "hazennstuff:ominous_armor_equip3",
+      "hazennstuff:ominous_armor_equip4"
+    ]
+  }
+}

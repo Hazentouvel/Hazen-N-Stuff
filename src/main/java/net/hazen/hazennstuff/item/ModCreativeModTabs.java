@@ -19,13 +19,16 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HazenNStuff.MODID);
 
     public static final Supplier<CreativeModeTab> SORCERERS_EQUIPMENT_TAB = CREATIVE_MODE_TAB.register("sorcerers_equipment_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.OMINOUSHAT.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.OMINOUSALLOY.get()))
                     .title(Component.translatable("creativetab.hazennstuff.sorcerers_equipment"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.OMINOUSHAT);
-                        output.accept(ModItems.OMINOUSBREASTPLATE);
-                        output.accept(ModItems.OMINOUSLEGGINGS);
-                        output.accept(ModItems.OMINOUSBOOTS);
+                        /***
+                         * I've commented this stuff out until you make the Geckolib version <3
+                         */
+                        //output.accept(ModItems.OMINOUSHAT);
+                        //output.accept(ModItems.OMINOUSBREASTPLATE);
+                        //output.accept(ModItems.OMINOUSLEGGINGS);
+                        //output.accept(ModItems.OMINOUSBOOTS);
                     }).build());
 
     public static final Supplier<CreativeModeTab> SORCERERS_INGREDIENTS_TAB = CREATIVE_MODE_TAB.register("sorcerers_ingredients_tab",
